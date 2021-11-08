@@ -13,7 +13,7 @@ function {COMP_NAME}(props: {COMP_NAME}Props) {
   const {} = useSetup();
 
   return (
-    <div className="{KEBAB_NAME}">
+    <div className="c-{KEBAB_NAME}">
       {COMP_NAME}
     </div>
   );
@@ -23,7 +23,7 @@ export default {COMP_NAME};
 `;
 
 const scssTemplate = `
-.{KEBAB_NAME} {
+.c-{KEBAB_NAME} {
 
 }
 `;
